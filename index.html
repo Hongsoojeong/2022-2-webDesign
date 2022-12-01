@@ -3,41 +3,48 @@
     <head>
         <meta charset="utf-8">
         <title>웹 디자인 과제</title>
-        <meta name="description" content="명품 블렌드 커피와 유기농 음식을 제공하는 카페">
         <link rel="icon" type="image/png" href="images/favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
 
     <style>
-        body{
-            color: white;
-            
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+        body{
+            font-family: 'Fjalla One', sans-serif;
+            color: white;
+                    }
+        footer{
+            padding: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
     </style>
     <body>
         <div id="home" class="big-bg">
             <header class="page-header wrapper">
-                <h1><a href="index.html"><img class="logo" src="images/favicon.png" alt="WCB 카페 홈"></a></h1>
+                <h1><a href="index.html"><img class="logo" src="images/favicon.png"></a></h1>
                 <nav>
                     <ul class="main-nav">
-                        <li><a href="news.html">K-Pop News</a></li>
-                        <li><a href="menu.html">🎵 K-Pop songs</a></li>
+                        <li><a href="news.html">🤍 K-Pop News</a></li>
+                        <li><a href="songs.html">🎵 K-Pop songs</a></li>
+                        <li><a href="style.html">🖤 K-Fashion</a></li>
                     </ul>
                 </nav>
             </header>
 
             <div class="home-content wrapper">
-                <h2 class="page-title">What is K-pop?</h2>
+                <h2 class="page-title" style="font-size:120px">What is K-pop?</h2>
                 <p><strong>K-Pop은 해외에서 인기를 얻고 있는 한국의 대중음악. 대체로 댄스음악</strong>
                    </p>
-                <a class="button" href="menu.html"><strong>Let's Look up The Songs</strong></a>
+                <a class="button" href="songs.html"><strong>Let's Look up The Songs</strong></a>
             </div><!-- /.home-content -->
         </div><!-- /#home -->
     </body>
+    <footer>
+        ©2022 웹 디자인 2학기 과제물
+      </footer>
 </html>
